@@ -12,6 +12,7 @@ public class JobPage extends Urls{
 	WebDriver driver;
 	Paths paths=new Paths();
 	AddPayGradePage addPayGradePage=new AddPayGradePage(driver);
+	// String payGradeString = "(//a[@class='oxd-topbar-body-nav-tab-link' ])[2]";
 	
 	public JobPage(WebDriver driver) {
 		super(driver);
