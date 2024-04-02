@@ -11,7 +11,9 @@ public class Admin extends Urls{
 
 	WebDriver driver;
 	Paths paths=new Paths();
+	String adminbutton= "(//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name' ])[1]";
 	
+	String jobBttonString="(//span[@class='oxd-topbar-body-nav-tab-item' ])[2]";
 	public Admin(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
