@@ -5,7 +5,7 @@
     <classes>
       <class name="Main">
         <methods>
-          <include name="EditUser"/>
+          <include name="EditUserPayGrade"/>
         </methods>
       </class> <!-- Main -->
     </classes>
